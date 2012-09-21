@@ -4,24 +4,16 @@
 
 
     <portlet>
-		<portlet-name>sample-page1</portlet-name>
-		<display-name>Sample page1</display-name>
+		<portlet-name>patient-edit</portlet-name>
+		<display-name>Patient Edit</display-name>
 		<portlet-class>javax.portlet.faces.GenericFacesPortlet</portlet-class>
         <init-param>
             <name>javax.portlet.faces.defaultViewId.view</name>
-            <value>/xhtml/generic/viewMode.xhtml</value>
+            <value>/xhtml/patient/viewMode.xhtml</value>
         </init-param>
         <init-param>
             <name>javax.portlet.faces.defaultViewId.edit</name>
-            <value>/xhtml/generic/editMode.xhtml</value>
-        </init-param>
-        <init-param>
-            <name>portlet.title</name>
-            <value>sample-page1-title</value>
-        </init-param>
-        <init-param>
-            <name>portlet.content.path</name>
-            <value>sample-page1-path</value>
+            <value>/xhtml/patient/editMode.xhtml</value>
         </init-param>
 		<supports>
 			<mime-type>text/html</mime-type>
@@ -29,45 +21,12 @@
 			<portlet-mode>EDIT</portlet-mode>
 		</supports>
 		<portlet-info>
-			<title>Sample Page1</title>
-			<short-title>Sample Page1</short-title>
-			<keywords>Sample Page1</keywords>
+			<title>Patient Edit</title>
+			<short-title>Patient Edit</short-title>
+			<keywords>Patient Edit</keywords>
 		</portlet-info>
 	</portlet>
  	
-
-
-	<portlet>
-		<portlet-name>sample-page2</portlet-name>
-		<display-name>Sample page2</display-name>
-		<portlet-class>javax.portlet.faces.GenericFacesPortlet</portlet-class>
-        <init-param>
-            <name>javax.portlet.faces.defaultViewId.view</name>
-            <value>/xhtml/generic/viewMode.xhtml</value>
-        </init-param>
-        <init-param>
-            <name>javax.portlet.faces.defaultViewId.edit</name>
-            <value>/xhtml/generic/editMode.xhtml</value>
-        </init-param>
-        <init-param>
-            <name>portlet.title</name>
-            <value>sample-page2-title</value>
-        </init-param>
-        <init-param>
-            <name>portlet.content.path</name>
-            <value>sample-page2-path</value>
-        </init-param>
-		<supports>
-			<mime-type>text/html</mime-type>
-			<portlet-mode>VIEW</portlet-mode>
-			<portlet-mode>EDIT</portlet-mode>
-		</supports>
-		<portlet-info>
-			<title>Sample Page2</title>
-			<short-title>Sample Page2</short-title>
-			<keywords>Sample Page2</keywords>
-		</portlet-info>
-	</portlet>
 
 
 

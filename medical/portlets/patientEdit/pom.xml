@@ -18,17 +18,6 @@
 
     <dependencies>
     
-    	<dependency>
-            <groupId>com.merced.platform</groupId>
-            <artifactId>portlet-shared-project</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-    
-    	<dependency>
-            <groupId>com.merced.platform</groupId>
-            <artifactId>iframe-base-portlet-share</artifactId>
-            <version>${project.version}</version>
-        </dependency>
 	
 		<dependency>
 			<groupId>commons-fileupload</groupId>
