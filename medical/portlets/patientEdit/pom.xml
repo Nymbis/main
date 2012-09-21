@@ -11,9 +11,9 @@
         <relativePath>../..</relativePath>
     </parent>
 
-	<artifactId>sample-wfo-iframe-portlet</artifactId>
+	<artifactId>patient-edit-portlet</artifactId>
 	<packaging>war</packaging>
-	<name>sample-iframe-portlet</name>
+	<name>patient-edit-portlet</name>
 
     <dependencies>
     
